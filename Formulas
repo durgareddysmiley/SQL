@@ -1,7 +1,7 @@
 1. WHERE (Filtering Data)
 Explanation: Acts as a filter. It tells the database to only return rows that meet a specific condition.
 
-Syntax: WHERE [Column] [Operator] [Value]
+Syntax: WHERE [Column] [Operator] [Value] 
 ## CODE
 SELECT * FROM Employees 
 WHERE Department = 'Sales';
@@ -11,7 +11,7 @@ WHERE Price >= 100;
 
 Operators: =, <> (Not equal), >, <, LIKE, IN.
 
-2.ORDER BY (Sorting Data)
+2.ORDER BY (Sorting Data) 
 Explanation: Sorts the results. By default, it sorts Ascending (low to high). Use DESC for Descending (high to low).
 
 ASC: 1 to 10, A to Z (Default).
@@ -20,7 +20,7 @@ DESC: 10 to 1, Z to A.
 
 SQL
 -- Sort by price (Lowest to Highest)
-SELECT * FROM Products 
+SELECT * FROM Products
 ORDER BY Price ASC;
 
 -- Sort by date (Newest First)
